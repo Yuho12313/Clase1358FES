@@ -5,6 +5,7 @@
  */
 package listalinkadt;
 
+import ico.fes.modelo.DoubleListaLinkADT;
 import ico.fes.modelo.Empleado;
 import io.unam.fes.ListaADT;
 
@@ -36,6 +37,29 @@ public class ListaLinkADT {
         lsl2.append(new Empleado(3, "Santiago", "Ramirez", "Cruz", 1000.5f, 2020, 10));
         lsl2.append(new Empleado(4, "Daniela", "Ramirez", "Cruz", 1100.5f, 2019, 46));
         lsl2.transversal();
+        
+        
+        
+        DoubleListaLinkADT ldl = new DoubleListaLinkADT();
+        ldl.append(new Integer(10));
+        ldl.transversal();
+        ldl.append(new Integer(20));
+        ldl.transversal();
+        ldl.append(new Integer(30));
+        ldl.transversal();
+        ldl.append(new Integer(40));
+        
+        DoubleListaLinkADT ldl2 = new DoubleListaLinkADT();
+        ldl2.append(new Empleado(12, "José", "Ramirez", "gonzalez", 2300.0f, 4, 2015));
+        ldl2.append(new Empleado(21, "Diana", "Vallego", "Ñanez", 1500.5f, 2017, 7));
+        ldl2.append(new Empleado(43, "Daniela", "Ramirez", "Cruz", 1100.5f, 2019, 46));
+        ldl2.append(new Empleado(38, "Santiago", "Ramirez", "Cruz", 1000.5f, 2020, 10));
+        ldl2.transversal();
+        
     }
+    
+    
+    
+    
     
 }
